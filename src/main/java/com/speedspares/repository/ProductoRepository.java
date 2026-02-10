@@ -1,6 +1,6 @@
-package com.speedspares.repository; // <--- CORREGIDO
+package com.speedspares.repository;
 
-import com.speedspares.model.Producto; // <--- CORREGIDO
+import com.speedspares.model.entity.Producto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

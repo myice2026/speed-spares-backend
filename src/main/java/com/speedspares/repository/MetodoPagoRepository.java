@@ -1,9 +1,9 @@
 package com.speedspares.repository;
 
-import com.speedspares.model.entity.Taller;
+import com.speedspares.model.entity.MetodoPago;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface TallerRepository extends JpaRepository<Taller, Long> {
+public interface MetodoPagoRepository extends JpaRepository<MetodoPago, Long> {
 }
