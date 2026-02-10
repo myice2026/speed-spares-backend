@@ -35,6 +35,7 @@ public class SecurityConfig {
                 .cors(AbstractHttpConfigurer::disable) // Enable if needed properly
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/api/auth/**").permitAll()
+                        //.requestMatchers("/api/producto/**").permitAll()
                         .requestMatchers("/swagger-ui/**", "/v3/api-docs/**").permitAll()
                         .anyRequest().authenticated())
                 .sessionManagement(session -> session
